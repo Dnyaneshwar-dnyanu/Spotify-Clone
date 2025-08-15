@@ -1,0 +1,64 @@
+.border {
+     border: 2px solid red;
+}
+
+.flex {
+     display: flex;
+}
+
+.justify-content {
+     justify-content: center;
+}
+
+.items-center {
+     align-items: center;
+}
+
+.bg-black {
+     background: #000;
+     color: white;
+}
+
+.invert {
+     filter: invert(1);
+}
+
+.bg-grey {
+     background-color: #171717e1;
+}
+
+.rounded {
+     border-radius: 7px;
+}
+
+.m-1 {
+     margin: 0 5px;
+}
+
+.p-1 {
+     padding: 10px;
+}
+
+
+/* Applies to Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e2f; /* dark track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff6ec4, #7873f5); /* colorful gradient */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff4ec4, #5853f5); /* slightly brighter on hover */
+}
+
+html {
+     scroll-behavior: smooth;
+}
